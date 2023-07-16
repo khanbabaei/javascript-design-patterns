@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/khanbabaei/javascript-design-patterns/issues"
   },
-  "homepage": "https://github.com/khanbabaei/javascript-design-patterns#readme"
+  "homepage": "https://github.com/khanbabaei/javascript-design-patterns#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
 }
