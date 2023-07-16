@@ -16,7 +16,8 @@
     "url": "https://github.com/khanbabaei/javascript-design-patterns/issues"
   },
   "homepage": "https://github.com/khanbabaei/javascript-design-patterns#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "ts-node": "^10.9.1"
   }
 }
