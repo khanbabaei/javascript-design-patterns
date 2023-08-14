@@ -3,6 +3,7 @@ export default class Observable {
 
   subscribe(clb: Function) {
     this.observers.push(clb);
+    console.log("hee")
   }
 
 
@@ -15,4 +16,5 @@ export default class Observable {
       clb(data);
     })
   }
+  
 }
