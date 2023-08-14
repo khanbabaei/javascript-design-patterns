@@ -21,3 +21,4 @@ setTimeout(() => {
   observable.notify('notify2');
 }, 3000);
 
+console.log('hey !!')
