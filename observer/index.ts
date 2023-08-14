@@ -20,5 +20,3 @@ setTimeout(() => {
   observable.unsubscribe(callback1);
   observable.notify('notify2');
 }, 3000);
-
-console.log('add by rabiee')
