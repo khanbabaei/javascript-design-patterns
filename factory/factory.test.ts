@@ -1,6 +1,5 @@
 import { Vehicle, Car, Truck, Motorcycle } from './factory';
 
-// Mock for console.log
 const originalConsoleLog = console.log;
 const consoleLogMock = jest.fn();
 console.log = consoleLogMock;

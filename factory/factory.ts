@@ -22,12 +22,10 @@ export class Motorcycle implements Vehicle {
     turnOn = () => console.log("motor is here!!");
 }
 
-// Create an abstract factory interface
 export interface VehicleFactoryType {
     createVehicle(type: string): Vehicle | null;
 }
 
-// Implement the factory
 export const vehicleFactory: VehicleFactoryType = {
     createVehicle(type: string): Vehicle | null {
         switch (type) {
